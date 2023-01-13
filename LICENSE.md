@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2017-2018 Stephane VUJASINOVIC and Frederic UHRWEILLER
+Copyright (c) 2023-2024 jiayuzhang128
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
