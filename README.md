@@ -7,8 +7,7 @@ A video of the project can be found here: https://www.youtube.com/watch?v=xjx4mb
 It is still an experimental version and further improvements will have to be done.
 
 ## Contributors
-- Stephane VUJASINOVIC
-- Frederic UHRWEILLER
+- jiayuzhang128
 
 ## Requirements
 
