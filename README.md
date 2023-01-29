@@ -34,18 +34,4 @@ A disparity map is then generated and thank to a third order regression, it is p
 
 ## Camera used in this project
 
-Cameras used in the projet are: Logitech Webcam C170. C270 and C370 are also fine.
 
-Amazon Links for webcams (best prices):
-
-- USA: https://amzn.to/3cPxKg9
-
-- UK: https://amzn.to/3rBnfRJ
-
-- Germany: https://amzn.to/3w5DE4m
-
-- France: https://amzn.to/3u5GVPf
-
-- Spain: https://amzn.to/3dz9XjZ
-
-- Italy: https://amzn.to/3m1I3Rm
