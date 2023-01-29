@@ -22,7 +22,7 @@ Required python packages:
 - openpyxl
 - scikitlearn
 
-## "Take_images_for_calibration.py"
+## "capture.py"
 
 You will need to take pictures with both cameras yith this script in order to calibrate the cameras (remove the distorsion and stereo calibration)
 It is good to take around 30 to 50 pictures with both cameras.
