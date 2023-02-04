@@ -61,9 +61,9 @@ if __name__ == '__main__':
     parser.add_argument('--imageDir', type=str, required=False, default='CalibDataMono', help='image directory path')
     parser.add_argument('--imageFormat', type=str, required=False, default='png', help='image format, png/jpg')
     parser.add_argument('--prefix', type=str, required=False, default='', help='image prefix')
-    parser.add_argument('--squareSize', type=float, required=False, default=27.0, help='chessboard square size')
-    parser.add_argument('--width', type=int, required=False, default=8, help='chessboard width size, default is 8')
-    parser.add_argument('--height', type=int, required=False, default=5, help='chessboard height size, default is 5')
+    parser.add_argument('--squareSize', type=float, required=False, default=20.0, help='chessboard square size')
+    parser.add_argument('--width', type=int, required=False, default=11, help='chessboard width size, default is 11')
+    parser.add_argument('--height', type=int, required=False, default=8, help='chessboard height size, default is 8')
     parser.add_argument('--saveFile', type=str, required=False, default='monoCalibParam.yml', help='YML file to save calibration matrices')
 
     args = parser.parse_args()

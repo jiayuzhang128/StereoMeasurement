@@ -47,7 +47,7 @@ def makeDir(numCam=1, path='CalibData'):
         return 0
 
 
-def getPicture(numCam, index, savePath, width=640, height=480, criteria=(cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001), numCorner1=8, numCorner2=5, idImage=0):
+def getPicture(numCam, index, savePath, width=640, height=480, criteria=(cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001), numCorner1=11, numCorner2=8, idImage=0):
     '''
     拍摄相机标定图像\n
     参数：\n
@@ -163,8 +163,8 @@ if __name__ == '__main__':
 
     print('Starting the Calibration. Press and maintain the ESC key to exit the script\n')
     print('Push (s) to save the image')
-    # path = makeDir(numCam=2)
-    path = makeDir(numCam=1)
+    path = makeDir(numCam=2)
+    # path = makeDir(numCam=1)
     if path:
-        getPicture(numCam=1, index=1, savePath=path)
-        # getPicture(numCam=2, index=0, savePath=path, width=2560,height=720)
+        # getPicture(numCam=1, index=1, savePath=path)
+        getPicture(numCam=2, index=0, savePath=path, width=2560,height=720)
