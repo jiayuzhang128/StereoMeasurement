@@ -1,37 +1,27 @@
-# Stereo-Vision
+<h1 align=center>双目测距</h1>
 
-This program has been developed as part of a project at the University of Karlsruhe in Germany. The final purpose of the algorithm is to measure the distance to an object by using Stereo Cameras.
+本项目使用普通的双目RGB相机测量目标距离。
 
-A video of the project can be found here: https://www.youtube.com/watch?v=xjx4mbZXaNc
-
-It is still an experimental version and further improvements will have to be done.
-
-## Contributors
-- jiayuzhang128
-
-## Requirements
-
-You will need:
-- Two webcams
-- Python installled on your computer
-- A Chessboard for the calibration
-
-Required python packages:
-- numpy
-- openCV
-- openpyxl
-- scikitlearn
-
-## "capture.py"
-
-You will need to take pictures with both cameras yith this script in order to calibrate the cameras (remove the distorsion and stereo calibration)
-It is good to take around 30 to 50 pictures with both cameras.
-
-## ”Main_Stereo_Vision_Prog.py”
-
-This script is used to calibrate the cameras with the pictures previously taken by the script "Take_images_for_calibration.py". 
-A disparity map is then generated and thank to a third order regression, it is possible to measure the distance to a defined object by clicking on it. 
-
-## Camera used in this project
+[参考视频](https://www.youtube.com/watch?v=xjx4mbZXaNc)
 
 
+## 依赖
+
+### 实物：
+
++ 普通RGB双目相机
+
++ 棋盘格标定板
+
+### 运行环境:
+
++ python 3.7.5
+
++ numpy
++ openCV
++ openpyxl
++ scikitlearn
+
+## 贡献者
+
++ jiayuzhang128
