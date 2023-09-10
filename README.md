@@ -4,9 +4,6 @@
 
 本项目使用普通的双目RGB相机测量目标距离。
 
-[参考视频](https://www.youtube.com/watch?v=xjx4mbZXaNc)
-
-
 ## 依赖
 
 ### 实物：
@@ -18,7 +15,6 @@
 ### 运行环境:
 
 + python 3.7.5
-
 + numpy
 + openCV
 + openpyxl
